@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 c23e78e45b526748f533799650ad1b9acc30667c Codex <codex@openai.com> 1786802818 +0500	commit (initial): Build interactive resume site
-c23e78e45b526748f533799650ad1b9acc30667c 479fd7fa227efd93e24d90fcf16eacfc9d0b0b6d Codex <codex@openai.com> 1786804763 +0500	commit: Refine resume download experience
-479fd7fa227efd93e24d90fcf16eacfc9d0b0b6d 59a8b60622d861275aec5f79aa218321f68e5373 Codex <codex@openai.com> 1786805168 +0500	commit: Make resume typography container responsive
-59a8b60622d861275aec5f79aa218321f68e5373 d463a5d56f2e664da9021e05ee4bffef2bf85aed Codex <codex@openai.com> 1786805761 +0500	commit: Refine intro typography
-d463a5d56f2e664da9021e05ee4bffef2bf85aed 4c1b7166b5bc54fa1ffdc6b9202547df22b1f660 Codex <codex@openai.com> 1786806009 +0500	commit: Enlarge responsive resume title
-4c1b7166b5bc54fa1ffdc6b9202547df22b1f660 0a936cc64bb1668f25df8c6ab42ae8ffc80e53d3 Codex <codex@openai.com> 1786806248 +0500	commit: Restore previous resume title size
