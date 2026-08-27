@@ -1,0 +1,13 @@
+meta:
+  environment: nodejs
+  toolchain:
+    name: npm
+    version: 22.13.0
+
+build:
+  skip: false
+  additionalCommands: npm run build
+
+run:
+  command: npm run start
+  containerPort: 3000
