@@ -16,7 +16,8 @@ test("renders the public resume metadata", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /Junior Python Backend Developer/);
+  assert.match(html, /Python Developer/);
+  assert.doesNotMatch(html, /Junior/i);
   assert.match(html, /egorfenin\.ru/);
   assert.doesNotMatch(html, /vinext-starter|Your site is taking shape/);
 });
@@ -27,6 +28,7 @@ test("keeps the critical contacts and projects in the public page", async () => 
   assert.match(page, /feninea@mail\.ru/);
   assert.match(page, /github\.com\/voityvaity/);
   assert.match(page, /kittygram_final/);
+  assert.match(page, /voityvaity\/foodgram/);
   assert.match(page, /egorfenin\.ru/);
   assert.doesNotMatch(page, /учиться на ошибках/);
 });

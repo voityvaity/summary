@@ -1,10 +1,10 @@
 # egorfenin.ru — интерактивное резюме
 
-Персональный сайт Егора Фенина, Junior Python Backend Developer.
+Персональный сайт Егора Фенина, Python Developer.
 
 - Сайт: [egorfenin.ru](https://egorfenin.ru)
 - GitHub: [voityvaity](https://github.com/voityvaity)
-- Основной backend-проект: [kittygram_final](https://github.com/voityvaity/kittygram_final)
+- Backend-проекты: [Foodgram](https://github.com/voityvaity/foodgram) и [Kittygram](https://github.com/voityvaity/kittygram_final)
 
 ## Что реализовано
 

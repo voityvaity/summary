@@ -14,6 +14,7 @@ const coreSkills = [
   "Git",
   "Docker / Nginx",
   "GitHub Actions",
+  "Unit- и API-тестирование",
 ];
 
 const qualities = [
@@ -24,20 +25,20 @@ const qualities = [
 
 const projects = [
   {
-    name: "Kittygram",
+    name: "Foodgram",
     description:
-      "Учебный веб-сервис с REST API, контейнеризацией, Nginx, тестами и автоматическим развёртыванием.",
-    stack: "Django · DRF · PostgreSQL · Docker · Nginx · GitHub Actions",
-    href: "https://github.com/voityvaity/kittygram_final",
+      "Сервис рецептов с авторизацией, фильтрацией, подписками, избранным и списком покупок с суммированием ингредиентов.",
+    stack: "Django · DRF · PostgreSQL · Docker · Nginx · Tests · CI",
+    href: "https://github.com/voityvaity/foodgram",
     linkLabel: "Открыть код",
   },
   {
-    name: "egorfenin.ru",
+    name: "Kittygram",
     description:
-      "Интерактивное резюме с адаптивной вёрсткой, собственным доменом и развёртыванием на Amvera.",
-    stack: "React · TypeScript · Vinext · Amvera",
-    href: SITE_URL,
-    linkLabel: "Открыть сайт",
+      "Веб-сервис для публикации карточек котов и достижений: REST API, авторизация, медиафайлы, контейнеризация и CI/CD.",
+    stack: "Django · DRF · PostgreSQL · Docker · Nginx · GitHub Actions",
+    href: "https://github.com/voityvaity/kittygram_final",
+    linkLabel: "Открыть код",
   },
 ];
 
@@ -201,7 +202,7 @@ export default function Home() {
       {!isOpen && (
         <section className="hero" aria-labelledby="resume-title">
           <button className="resume-trigger" type="button" onClick={openResume} aria-describedby="open-note">
-            <span className="resume-trigger__eyebrow">Junior Python Backend Developer</span>
+            <span className="resume-trigger__eyebrow">Python Developer</span>
             <span className="resume-trigger__title" id="resume-title">
               <span className="resume-trigger__rus">РЕ</span>
               <span className="resume-trigger__accent">ЗЮ</span>
@@ -247,7 +248,7 @@ export default function Home() {
             </div>
 
             <div className="resume__identity">
-              <p className="resume__role">Junior Python Backend Developer</p>
+              <p className="resume__role">Python Developer</p>
               <h1 id="candidate-name">
                 <span>Егор</span>
                 <em>Фенин</em>
@@ -265,12 +266,19 @@ export default function Home() {
             <div className="section-number" aria-hidden="true">01</div>
             <div>
               <p className="section-mark">ОБО МНЕ · ОБРАЗОВАНИЕ И ДОСТИЖЕНИЯ</p>
-              <h2>Python-бэкенд<br />и системное мышление.</h2>
-              <p>
-                Начинающий Python backend-разработчик и студент математико-механического факультета СПбГУ. Победитель Всероссийской олимпиады по физике; с первого курса изучаю Python и веб-разработку, прошёл курсы Яндекс Практикума и Learn Python.
-              </p>
+              <h2>Python backend-разработка.</h2>
+              <div className="profile-grid">
+                <article>
+                  <span>ПРОФИЛЬ</span>
+                  <p>Прошёл курс «Python-разработчик» Яндекс Практикума. Разрабатываю REST API на Django и DRF, работаю с PostgreSQL, пишу unit- и API-тесты, настраиваю Docker, Nginx и CI.</p>
+                </article>
+                <article>
+                  <span>ОБРАЗОВАНИЕ</span>
+                  <p>Обучался в Санкт-Петербургском государственном университете на математико-механическом факультете; поступил после победы во Всероссийской олимпиаде по физике.</p>
+                </article>
+              </div>
               <div className="event-row" aria-label="Последние профессиональные мероприятия">
-                <span>ARCHI.Tech 2025 <small>ВТБ</small></span>
+                <span>ARCHI.Tech 2025 <small>Тимлид · собрал команду · топ-5 кейса по цифровому рублю</small></span>
                 <span>Young Con 2025 <small>Яндекс</small></span>
               </div>
             </div>
@@ -331,8 +339,8 @@ export default function Home() {
           </section>
 
           <footer className="resume__footer">
-            <p>Открыт к первой<br />задаче в команде.</p>
-            <span>Стажировка или позиция<br /><strong>Junior Python Backend Developer</strong></span>
+            <p>Открыт к задачам<br />в backend-команде.</p>
+            <span>Рассматриваю позицию<br /><strong>Python Developer</strong></span>
           </footer>
         </article>
       )}
