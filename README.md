@@ -4,7 +4,7 @@
 
 - Сайт: [egorfenin.ru](https://egorfenin.ru)
 - GitHub: [voityvaity](https://github.com/voityvaity)
-- Backend-проекты: [Foodgram](https://github.com/voityvaity/foodgram) и [Kittygram](https://github.com/voityvaity/kittygram_final)
+- Backend-проекты: [Foodgram](https://github.com/voityvaity/foodgram), [Kittygram](https://github.com/voityvaity/kittygram_final), [Taski](https://github.com/voityvaity/taski-docker) и [Final Defence Coach](https://github.com/voityvaity/tngimpact-final-defence-coach)
 
 ## Что реализовано
 

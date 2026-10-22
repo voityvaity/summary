@@ -22,11 +22,11 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://egorfenin.ru"),
   title: "Егор Фенин — Python Developer",
-  description: "Интерактивное резюме Егора Фенина: Python, Django REST Framework, SQL и Docker.",
+  description: "Интерактивное резюме Егора Фенина: Python, Django REST Framework, FastAPI, PostgreSQL и Docker.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Егор Фенин — Python Developer",
-    description: "Python, Django REST Framework, SQL, Docker и проекты.",
+    description: "Python, Django REST Framework, FastAPI, PostgreSQL, Docker и проекты.",
     url: "/",
     siteName: "Резюме Егора Фенина",
     locale: "ru_RU",

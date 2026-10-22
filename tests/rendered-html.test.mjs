@@ -29,6 +29,11 @@ test("keeps the critical contacts and projects in the public page", async () => 
   assert.match(page, /github\.com\/voityvaity/);
   assert.match(page, /kittygram_final/);
   assert.match(page, /voityvaity\/foodgram/);
+  assert.match(page, /voityvaity\/taski-docker/);
+  assert.match(page, /voityvaity\/tngimpact-final-defence-coach/);
+  assert.match(page, /t\.me\/resgep/);
+  assert.match(page, /TNGIMPACT AI Challenge 2026/);
+  assert.match(page, /FastAPI/);
   assert.match(page, /egorfenin\.ru/);
   assert.doesNotMatch(page, /учиться на ошибках/);
 });

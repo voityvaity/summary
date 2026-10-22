@@ -489,7 +489,7 @@ a {
 
 .event-row {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin-top: 40px;
 }
@@ -626,6 +626,12 @@ a {
 @keyframes resume-open {
   from { opacity: 0; transform: translateY(30px) scale(0.985); }
   to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 1050px) and (min-width: 721px) {
+  .event-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 720px) {

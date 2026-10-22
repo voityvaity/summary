@@ -7,20 +7,22 @@ const GITHUB_URL = "https://github.com/voityvaity";
 const SITE_URL = "https://egorfenin.ru";
 
 const coreSkills = [
-  "Python",
+  "Python · ООП · алгоритмы",
   "Django + DRF",
+  "FastAPI",
   "SQL / PostgreSQL",
-  "REST API",
-  "Git",
+  "REST API · интеграции",
+  "Git / GitHub",
   "Docker / Nginx",
-  "GitHub Actions",
-  "Unit- и API-тестирование",
+  "GitHub Actions / CI/CD",
+  "Unit- и API-тесты",
+  "pytest / Django test framework",
 ];
 
 const qualities = [
-  "Целеустремлённость и готовность осваивать новые технологии",
-  "Умение работать в команде и учиться",
-  "Ответственный подход к выполнению задач",
+  "Сильная математическая база и системное мышление",
+  "Быстро разбираюсь в сложных технических задачах",
+  "Довожу проект до результата: код, тесты, контейнеризация и CI/CD",
 ];
 
 const projects = [
@@ -38,6 +40,22 @@ const projects = [
       "Веб-сервис для публикации карточек котов и достижений: REST API, авторизация, медиафайлы, контейнеризация и CI/CD.",
     stack: "Django · DRF · PostgreSQL · Docker · Nginx · GitHub Actions",
     href: "https://github.com/voityvaity/kittygram_final",
+    linkLabel: "Открыть код",
+  },
+  {
+    name: "Taski",
+    description:
+      "REST API для задач: развёртывание в Docker с PostgreSQL и Nginx, API-тесты и автоматические проверки GitHub Actions.",
+    stack: "REST API · PostgreSQL · Docker · Nginx · Tests · CI",
+    href: "https://github.com/voityvaity/taski-docker",
+    linkLabel: "Открыть код",
+  },
+  {
+    name: "Final Defence Coach",
+    description:
+      "AI-тренажёр защиты работ: разбор PDF и DOCX, асинхронные запросы к LLM и оценка ответов.",
+    stack: "FastAPI · Async · LLM API · Docker · Tests",
+    href: "https://github.com/voityvaity/tngimpact-final-defence-coach",
     linkLabel: "Открыть код",
   },
 ];
@@ -257,6 +275,7 @@ export default function Home() {
                 <a href="tel:+79191207070">+7 919 120-70-70</a>
                 <a href="mailto:feninea@mail.ru">feninea@mail.ru</a>
                 <a href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://t.me/resgep" target="_blank" rel="noreferrer">Telegram</a>
                 <a href={SITE_URL}>egorfenin.ru</a>
               </div>
             </div>
@@ -270,16 +289,17 @@ export default function Home() {
               <div className="profile-grid">
                 <article>
                   <span>ПРОФИЛЬ</span>
-                  <p>Прошёл курс «Python-разработчик» Яндекс Практикума. Разрабатываю REST API на Django и DRF, работаю с PostgreSQL, пишу unit- и API-тесты, настраиваю Docker, Nginx и CI.</p>
+                  <p>Прошёл курс «Python-разработчик» Яндекс Практикума. Разрабатываю веб-приложения и REST API на Django, DRF и FastAPI, работаю с PostgreSQL, пишу unit- и API-тесты, настраиваю Docker, Nginx и CI/CD.</p>
                 </article>
                 <article>
                   <span>ОБРАЗОВАНИЕ</span>
-                  <p>Обучался в Санкт-Петербургском государственном университете на математико-механическом факультете; поступил после победы во Всероссийской олимпиаде по физике.</p>
+                  <p>Учился на математико-механическом факультете Санкт-Петербургского государственного университета; победитель Всероссийской олимпиады по физике.</p>
                 </article>
               </div>
               <div className="event-row" aria-label="Последние профессиональные мероприятия">
-                <span>ARCHI.Tech 2025 <small>Тимлид · собрал команду · топ-5 кейса по цифровому рублю</small></span>
-                <span>Young Con 2025 <small>Яндекс</small></span>
+                <span>ARCHI.Tech 2025 <small>ВТБ · тимлид · собрал команду · топ-5 по архитектуре данных цифрового рубля</small></span>
+                <span>TNGIMPACT AI Challenge 2026 <small>4–6 сентября · проект Final Defence Coach</small></span>
+                <span>Young Con 2025 <small>Яндекс · участие</small></span>
               </div>
             </div>
           </section>
@@ -316,7 +336,7 @@ export default function Home() {
               </ul>
               <div className="knowledge-note">
                 <span>+</span>
-                <p>Базовое понимание алгоритмов и структур данных, интеграция с внешними API и принципы работы веб-серверов.</p>
+                <p>Алгоритмы и структуры данных, проектирование REST API, интеграция внешних сервисов и асинхронные запросы.</p>
               </div>
             </div>
           </section>
@@ -327,7 +347,7 @@ export default function Home() {
               <div>
                 <p className="section-mark">АНГЛИЙСКИЙ</p>
                 <p className="language-level">B1—B2</p>
-                <p>Чтение технической документации и общение с англоязычными коллегами.</p>
+                <p>Читаю техническую документацию и работаю с англоязычными материалами.</p>
               </div>
               <div>
                 <p className="section-mark">ЛИЧНЫЕ КАЧЕСТВА</p>
