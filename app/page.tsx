@@ -289,11 +289,11 @@ export default function Home() {
               <div className="profile-grid">
                 <article>
                   <span>ПРОФИЛЬ</span>
-                  <p>Прошёл курс «Python-разработчик» Яндекс Практикума. Разрабатываю веб-приложения и REST API на Django, DRF и FastAPI, работаю с PostgreSQL, пишу unit- и API-тесты, настраиваю Docker, Nginx и CI/CD.</p>
+                  <p>Разрабатываю веб-приложения и REST API на Django, DRF и FastAPI. Работаю с PostgreSQL, пишу unit- и API-тесты, использую Docker, Nginx и CI/CD.</p>
                 </article>
                 <article>
                   <span>ОБРАЗОВАНИЕ</span>
-                  <p>Учился на математико-механическом факультете Санкт-Петербургского государственного университета; победитель Всероссийской олимпиады по физике.</p>
+                  <p>Учился на матмехе СПбГУ, победитель Всероссийской олимпиады по физике. Прошёл программу подготовки Python-разработчиков от Яндекса.</p>
                 </article>
               </div>
               <div className="event-row" aria-label="Последние профессиональные мероприятия">
